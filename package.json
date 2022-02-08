@@ -52,8 +52,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "postbuild": "react-snap",
+    "test": "react-scripts test react-snap",
     "eject": "react-scripts eject",
     "sitemap": "node sitemap-generator"
   },
