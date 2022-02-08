@@ -58,10 +58,9 @@
     "sitemap": "node sitemap-generator"
   },
   "reactSnap": {
-    "include": [
-      "/"
-    ],
+    "cacheAjaxRequests": true,
     "inlineCss": true,
+    "http2PushManifest": true,
     "puppeteer": {
       "cache": false
     },
